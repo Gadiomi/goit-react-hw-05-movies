@@ -1,0 +1,23 @@
+.Item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.Title:not(:last-child) {
+  margin-bottom: 20px;
+}
+.Title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.Item {
+  border-radius: 4px;
+  background: var(--white, #efefef);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.Text {
+  font-weight: 500;
+  line-height: 1, 8;
+  letter-spacing: 0.4px;
+}
